@@ -7,10 +7,10 @@ body {
 
 header {
   display: flex;
-  align-items: center;
   justify-content: space-between;
+  align-items: center;
   padding: 12px;
-  background-color: white;
+  background-color: #fff;
   border-bottom: 1px solid #ccc;
 }
 
@@ -27,6 +27,11 @@ button {
   border: none;
   border-radius: 6px;
   cursor: pointer;
+  margin: 2px 0;
+}
+
+button:hover {
+  opacity: 0.9;
 }
 
 .card {
@@ -44,4 +49,12 @@ input {
   border-radius: 6px;
   width: 100%;
   box-sizing: border-box;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+.section {
+  margin-bottom: 12px;
 }
